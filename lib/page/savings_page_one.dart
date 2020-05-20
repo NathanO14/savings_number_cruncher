@@ -9,7 +9,7 @@ class SavingsPageOne extends StatefulWidget {
 class _SavingsPageOneState extends State<SavingsPageOne> {
   final DateFormat _dateFormat = new DateFormat("MMMM y");
   final DateTime _currentDate = DateTime.now();
-  String _currency = "\$";
+  String _currency = "\£";
   double _savingsGoal = 0.0;
   DateTime _savingsDate = DateTime.now().add(Duration(days: 180));
   double _currentSavings = 0.0;
@@ -101,6 +101,7 @@ class _SavingsPageOneState extends State<SavingsPageOne> {
                 ),
               ),
               Card(
+                margin: EdgeInsets.all(20.0),
                 child: Column(
                   children: <Widget>[
                     Text(
