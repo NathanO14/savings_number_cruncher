@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     final Color darkCardColour = Color(0xFF1a2133);
 
     return MaterialApp(
-      title: 'Savings Number Cruncher!',
+      title: 'Savings Number Cruncher',
       theme: ThemeData(
         primarySwatch: Colors.grey,
         brightness: Brightness.light,
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: HomeScreen(title: "Myrailator"),
+      home: HomeScreen(title: 'Savings Number Cruncher'),
     );
   }
 }

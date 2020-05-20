@@ -1,4 +1,4 @@
-name: Savings Number Cruncher
+name: savings_number_cruncher
 description: A simple savings calculator.
 
 publish_to: 'none'

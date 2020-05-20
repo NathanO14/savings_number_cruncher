@@ -71,8 +71,9 @@ class _SavingsPageOneState extends State<SavingsPageOne> {
                         Text('When do you need your savings by?'),
                         FlatButton(
                           child: Text(_dateFormat.format(_savingsDate)),
-                          onPressed: () {
-                            _selectDate(context);
+                          onPressed: () async {
+                            await _selectDate(context);
+                            _calculate();
                           },
                         ),
 //                        Text(
