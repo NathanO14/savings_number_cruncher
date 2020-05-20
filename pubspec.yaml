@@ -2,7 +2,7 @@ name: savings_number_cruncher
 description: A simple savings calculator.
 
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+20200520
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
